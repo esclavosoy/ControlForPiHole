@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE3BBFE425C7539100A4A2A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BBFE325C7539100A4A2A8 /* AppDelegate.swift */; };
+		EE3BBFE725C7539100A4A2A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3BBFE525C7539100A4A2A8 /* Main.storyboard */; };
+		EE3BBFE925C7539100A4A2A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BBFE825C7539100A4A2A8 /* ViewController.swift */; };
+		EE3BBFEB25C7539200A4A2A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3BBFEA25C7539200A4A2A8 /* Assets.xcassets */; };
+		EE3BBFF625C7539300A4A2A8 /* ControlForPiHoleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BBFF525C7539300A4A2A8 /* ControlForPiHoleTests.swift */; };
+		EE3BC00125C7539300A4A2A8 /* ControlForPiHoleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BC00025C7539300A4A2A8 /* ControlForPiHoleUITests.swift */; };
+		EE3BC00825C7539300A4A2A8 /* ControlForPiHole Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EE3BC00725C7539300A4A2A8 /* ControlForPiHole Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EE3BC00D25C7539300A4A2A8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3BC00C25C7539300A4A2A8 /* Cocoa.framework */; };
+		EE3BC01025C7539300A4A2A8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BC00F25C7539300A4A2A8 /* SafariWebExtensionHandler.swift */; };
+		EE3BC01325C7539300A4A2A8 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = EE3BC01225C7539300A4A2A8 /* _locales */; };
+		EE3BC01525C7539300A4A2A8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = EE3BC01425C7539300A4A2A8 /* images */; };
+		EE3BC01725C7539300A4A2A8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = EE3BC01625C7539300A4A2A8 /* manifest.json */; };
+		EE3BC01925C7539300A4A2A8 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = EE3BC01825C7539300A4A2A8 /* background.js */; };
+		EE3BC01B25C7539300A4A2A8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = EE3BC01A25C7539300A4A2A8 /* content.js */; };
+		EE3BC01D25C7539300A4A2A8 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = EE3BC01C25C7539300A4A2A8 /* popup.html */; };
+		EE3BC01F25C7539300A4A2A8 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = EE3BC01E25C7539300A4A2A8 /* popup.css */; };
+		EE3BC02125C7539300A4A2A8 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = EE3BC02025C7539300A4A2A8 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE3BBFF225C7539300A4A2A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE3BBFD725C7539100A4A2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE3BBFDE25C7539100A4A2A8;
+			remoteInfo = ControlForPiHole;
+		};
+		EE3BBFFD25C7539300A4A2A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE3BBFD725C7539100A4A2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE3BBFDE25C7539100A4A2A8;
+			remoteInfo = ControlForPiHole;
+		};
+		EE3BC00925C7539300A4A2A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE3BBFD725C7539100A4A2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE3BC00625C7539300A4A2A8;
+			remoteInfo = "ControlForPiHole Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE3BC02925C7539300A4A2A8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EE3BC00825C7539300A4A2A8 /* ControlForPiHole Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE3BBFDF25C7539100A4A2A8 /* ControlForPiHole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlForPiHole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3BBFE225C7539100A4A2A8 /* ControlForPiHole.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ControlForPiHole.entitlements; sourceTree = "<group>"; };
+		EE3BBFE325C7539100A4A2A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE3BBFE625C7539100A4A2A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE3BBFE825C7539100A4A2A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE3BBFEA25C7539200A4A2A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE3BBFEC25C7539200A4A2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3BBFF125C7539300A4A2A8 /* ControlForPiHoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlForPiHoleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3BBFF525C7539300A4A2A8 /* ControlForPiHoleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlForPiHoleTests.swift; sourceTree = "<group>"; };
+		EE3BBFF725C7539300A4A2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3BBFFC25C7539300A4A2A8 /* ControlForPiHoleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlForPiHoleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3BC00025C7539300A4A2A8 /* ControlForPiHoleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlForPiHoleUITests.swift; sourceTree = "<group>"; };
+		EE3BC00225C7539300A4A2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3BC00725C7539300A4A2A8 /* ControlForPiHole Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ControlForPiHole Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3BC00C25C7539300A4A2A8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EE3BC00F25C7539300A4A2A8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		EE3BC01225C7539300A4A2A8 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		EE3BC01425C7539300A4A2A8 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		EE3BC01625C7539300A4A2A8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		EE3BC01825C7539300A4A2A8 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		EE3BC01A25C7539300A4A2A8 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		EE3BC01C25C7539300A4A2A8 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		EE3BC01E25C7539300A4A2A8 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		EE3BC02025C7539300A4A2A8 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		EE3BC02225C7539300A4A2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3BC02325C7539300A4A2A8 /* ControlForPiHole_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ControlForPiHole_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE3BBFDC25C7539100A4A2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3BBFEE25C7539300A4A2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3BBFF925C7539300A4A2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3BC00425C7539300A4A2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3BC00D25C7539300A4A2A8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE3BBFD625C7539100A4A2A8 = {
+			isa = PBXGroup;
+			children = (
+				EE3BBFE125C7539100A4A2A8 /* ControlForPiHole */,
+				EE3BBFF425C7539300A4A2A8 /* ControlForPiHoleTests */,
+				EE3BBFFF25C7539300A4A2A8 /* ControlForPiHoleUITests */,
+				EE3BC00E25C7539300A4A2A8 /* ControlForPiHole Extension */,
+				EE3BC00B25C7539300A4A2A8 /* Frameworks */,
+				EE3BBFE025C7539100A4A2A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE3BBFE025C7539100A4A2A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE3BBFDF25C7539100A4A2A8 /* ControlForPiHole.app */,
+				EE3BBFF125C7539300A4A2A8 /* ControlForPiHoleTests.xctest */,
+				EE3BBFFC25C7539300A4A2A8 /* ControlForPiHoleUITests.xctest */,
+				EE3BC00725C7539300A4A2A8 /* ControlForPiHole Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE3BBFE125C7539100A4A2A8 /* ControlForPiHole */ = {
+			isa = PBXGroup;
+			children = (
+				EE3BBFE225C7539100A4A2A8 /* ControlForPiHole.entitlements */,
+				EE3BBFE325C7539100A4A2A8 /* AppDelegate.swift */,
+				EE3BBFE525C7539100A4A2A8 /* Main.storyboard */,
+				EE3BBFE825C7539100A4A2A8 /* ViewController.swift */,
+				EE3BBFEA25C7539200A4A2A8 /* Assets.xcassets */,
+				EE3BBFEC25C7539200A4A2A8 /* Info.plist */,
+			);
+			path = ControlForPiHole;
+			sourceTree = "<group>";
+		};
+		EE3BBFF425C7539300A4A2A8 /* ControlForPiHoleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE3BBFF525C7539300A4A2A8 /* ControlForPiHoleTests.swift */,
+				EE3BBFF725C7539300A4A2A8 /* Info.plist */,
+			);
+			path = ControlForPiHoleTests;
+			sourceTree = "<group>";
+		};
+		EE3BBFFF25C7539300A4A2A8 /* ControlForPiHoleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE3BC00025C7539300A4A2A8 /* ControlForPiHoleUITests.swift */,
+				EE3BC00225C7539300A4A2A8 /* Info.plist */,
+			);
+			path = ControlForPiHoleUITests;
+			sourceTree = "<group>";
+		};
+		EE3BC00B25C7539300A4A2A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE3BC00C25C7539300A4A2A8 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE3BC00E25C7539300A4A2A8 /* ControlForPiHole Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EE3BC00F25C7539300A4A2A8 /* SafariWebExtensionHandler.swift */,
+				EE3BC02225C7539300A4A2A8 /* Info.plist */,
+				EE3BC02325C7539300A4A2A8 /* ControlForPiHole_Extension.entitlements */,
+				EE3BC01125C7539300A4A2A8 /* Resources */,
+			);
+			path = "ControlForPiHole Extension";
+			sourceTree = "<group>";
+		};
+		EE3BC01125C7539300A4A2A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE3BC01225C7539300A4A2A8 /* _locales */,
+				EE3BC01425C7539300A4A2A8 /* images */,
+				EE3BC01625C7539300A4A2A8 /* manifest.json */,
+				EE3BC01825C7539300A4A2A8 /* background.js */,
+				EE3BC01A25C7539300A4A2A8 /* content.js */,
+				EE3BC01C25C7539300A4A2A8 /* popup.html */,
+				EE3BC01E25C7539300A4A2A8 /* popup.css */,
+				EE3BC02025C7539300A4A2A8 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE3BBFDE25C7539100A4A2A8 /* ControlForPiHole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3BC02A25C7539300A4A2A8 /* Build configuration list for PBXNativeTarget "ControlForPiHole" */;
+			buildPhases = (
+				EE3BBFDB25C7539100A4A2A8 /* Sources */,
+				EE3BBFDC25C7539100A4A2A8 /* Frameworks */,
+				EE3BBFDD25C7539100A4A2A8 /* Resources */,
+				EE3BC02925C7539300A4A2A8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3BC00A25C7539300A4A2A8 /* PBXTargetDependency */,
+			);
+			name = ControlForPiHole;
+			productName = ControlForPiHole;
+			productReference = EE3BBFDF25C7539100A4A2A8 /* ControlForPiHole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE3BBFF025C7539300A4A2A8 /* ControlForPiHoleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3BC02D25C7539300A4A2A8 /* Build configuration list for PBXNativeTarget "ControlForPiHoleTests" */;
+			buildPhases = (
+				EE3BBFED25C7539300A4A2A8 /* Sources */,
+				EE3BBFEE25C7539300A4A2A8 /* Frameworks */,
+				EE3BBFEF25C7539300A4A2A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3BBFF325C7539300A4A2A8 /* PBXTargetDependency */,
+			);
+			name = ControlForPiHoleTests;
+			productName = ControlForPiHoleTests;
+			productReference = EE3BBFF125C7539300A4A2A8 /* ControlForPiHoleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE3BBFFB25C7539300A4A2A8 /* ControlForPiHoleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3BC03025C7539300A4A2A8 /* Build configuration list for PBXNativeTarget "ControlForPiHoleUITests" */;
+			buildPhases = (
+				EE3BBFF825C7539300A4A2A8 /* Sources */,
+				EE3BBFF925C7539300A4A2A8 /* Frameworks */,
+				EE3BBFFA25C7539300A4A2A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3BBFFE25C7539300A4A2A8 /* PBXTargetDependency */,
+			);
+			name = ControlForPiHoleUITests;
+			productName = ControlForPiHoleUITests;
+			productReference = EE3BBFFC25C7539300A4A2A8 /* ControlForPiHoleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EE3BC00625C7539300A4A2A8 /* ControlForPiHole Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3BC02625C7539300A4A2A8 /* Build configuration list for PBXNativeTarget "ControlForPiHole Extension" */;
+			buildPhases = (
+				EE3BC00325C7539300A4A2A8 /* Sources */,
+				EE3BC00425C7539300A4A2A8 /* Frameworks */,
+				EE3BC00525C7539300A4A2A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ControlForPiHole Extension";
+			productName = "ControlForPiHole Extension";
+			productReference = EE3BC00725C7539300A4A2A8 /* ControlForPiHole Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE3BBFD725C7539100A4A2A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EE3BBFDE25C7539100A4A2A8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EE3BBFF025C7539300A4A2A8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EE3BBFDE25C7539100A4A2A8;
+					};
+					EE3BBFFB25C7539300A4A2A8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EE3BBFDE25C7539100A4A2A8;
+					};
+					EE3BC00625C7539300A4A2A8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EE3BBFDA25C7539100A4A2A8 /* Build configuration list for PBXProject "ControlForPiHole" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE3BBFD625C7539100A4A2A8;
+			productRefGroup = EE3BBFE025C7539100A4A2A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE3BBFDE25C7539100A4A2A8 /* ControlForPiHole */,
+				EE3BBFF025C7539300A4A2A8 /* ControlForPiHoleTests */,
+				EE3BBFFB25C7539300A4A2A8 /* ControlForPiHoleUITests */,
+				EE3BC00625C7539300A4A2A8 /* ControlForPiHole Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE3BBFDD25C7539100A4A2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3BBFEB25C7539200A4A2A8 /* Assets.xcassets in Resources */,
+				EE3BBFE725C7539100A4A2A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3BBFEF25C7539300A4A2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3BBFFA25C7539300A4A2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3BC00525C7539300A4A2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3BC01925C7539300A4A2A8 /* background.js in Resources */,
+				EE3BC01F25C7539300A4A2A8 /* popup.css in Resources */,
+				EE3BC01D25C7539300A4A2A8 /* popup.html in Resources */,
+				EE3BC01525C7539300A4A2A8 /* images in Resources */,
+				EE3BC01725C7539300A4A2A8 /* manifest.json in Resources */,
+				EE3BC01325C7539300A4A2A8 /* _locales in Resources */,
+				EE3BC01B25C7539300A4A2A8 /* content.js in Resources */,
+				EE3BC02125C7539300A4A2A8 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE3BBFDB25C7539100A4A2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3BBFE925C7539100A4A2A8 /* ViewController.swift in Sources */,
+				EE3BBFE425C7539100A4A2A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3BBFED25C7539300A4A2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3BBFF625C7539300A4A2A8 /* ControlForPiHoleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3BBFF825C7539300A4A2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3BC00125C7539300A4A2A8 /* ControlForPiHoleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3BC00325C7539300A4A2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3BC01025C7539300A4A2A8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE3BBFF325C7539300A4A2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE3BBFDE25C7539100A4A2A8 /* ControlForPiHole */;
+			targetProxy = EE3BBFF225C7539300A4A2A8 /* PBXContainerItemProxy */;
+		};
+		EE3BBFFE25C7539300A4A2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE3BBFDE25C7539100A4A2A8 /* ControlForPiHole */;
+			targetProxy = EE3BBFFD25C7539300A4A2A8 /* PBXContainerItemProxy */;
+		};
+		EE3BC00A25C7539300A4A2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE3BC00625C7539300A4A2A8 /* ControlForPiHole Extension */;
+			targetProxy = EE3BC00925C7539300A4A2A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE3BBFE525C7539100A4A2A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3BBFE625C7539100A4A2A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE3BC02425C7539300A4A2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE3BC02525C7539300A4A2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EE3BC02725C7539300A4A2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ControlForPiHole Extension/ControlForPiHole_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ControlForPiHole Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fig-Garden-Counsulting.ControlForPiHole.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EE3BC02825C7539300A4A2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ControlForPiHole Extension/ControlForPiHole_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ControlForPiHole Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fig-Garden-Counsulting.ControlForPiHole.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EE3BC02B25C7539300A4A2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ControlForPiHole/ControlForPiHole.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ControlForPiHole/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fig-Garden-Counsulting.ControlForPiHole";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EE3BC02C25C7539300A4A2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ControlForPiHole/ControlForPiHole.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ControlForPiHole/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fig-Garden-Counsulting.ControlForPiHole";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EE3BC02E25C7539300A4A2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ControlForPiHoleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fig-Garden-Counsulting.ControlForPiHoleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ControlForPiHole.app/Contents/MacOS/ControlForPiHole";
+			};
+			name = Debug;
+		};
+		EE3BC02F25C7539300A4A2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ControlForPiHoleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fig-Garden-Counsulting.ControlForPiHoleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ControlForPiHole.app/Contents/MacOS/ControlForPiHole";
+			};
+			name = Release;
+		};
+		EE3BC03125C7539300A4A2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ControlForPiHoleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fig-Garden-Counsulting.ControlForPiHoleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ControlForPiHole;
+			};
+			name = Debug;
+		};
+		EE3BC03225C7539300A4A2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ControlForPiHoleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fig-Garden-Counsulting.ControlForPiHoleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ControlForPiHole;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE3BBFDA25C7539100A4A2A8 /* Build configuration list for PBXProject "ControlForPiHole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3BC02425C7539300A4A2A8 /* Debug */,
+				EE3BC02525C7539300A4A2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3BC02625C7539300A4A2A8 /* Build configuration list for PBXNativeTarget "ControlForPiHole Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3BC02725C7539300A4A2A8 /* Debug */,
+				EE3BC02825C7539300A4A2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3BC02A25C7539300A4A2A8 /* Build configuration list for PBXNativeTarget "ControlForPiHole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3BC02B25C7539300A4A2A8 /* Debug */,
+				EE3BC02C25C7539300A4A2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3BC02D25C7539300A4A2A8 /* Build configuration list for PBXNativeTarget "ControlForPiHoleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3BC02E25C7539300A4A2A8 /* Debug */,
+				EE3BC02F25C7539300A4A2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3BC03025C7539300A4A2A8 /* Build configuration list for PBXNativeTarget "ControlForPiHoleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3BC03125C7539300A4A2A8 /* Debug */,
+				EE3BC03225C7539300A4A2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE3BBFD725C7539100A4A2A8 /* Project object */;
+}
